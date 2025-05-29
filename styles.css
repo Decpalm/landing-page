@@ -1,11 +1,41 @@
+ * {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+
+}
+
+.hero, footer {
+    background: #1f2937;
+}
+
+.main {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 .container {
     display: flex;
-    background: #1f2937;
-
-    
+    height: 300px;
 
 }
 
 .s1 {
     flex: 1;
+    height:100px;
 }
+
+.s1.pic {
+    background: grey;
+}
+
+
