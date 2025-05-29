@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    background: #1f2937;
+
+    
+
+}
+
+.s1 {
+    flex: 1;
+}
