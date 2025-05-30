@@ -1,8 +1,6 @@
  * {
     font-family: "Roboto", sans-serif;
-    margin: 0px;
-
-
+    margin: 0px
 }
 
 header {
@@ -37,6 +35,9 @@ footer {
 
 .container {
     display: flex;
+    padding: 0 140 0 140;
+    align-items: center;
+    
 }
 
 footer.container {
@@ -62,6 +63,20 @@ footer.container {
 .c4 {
     height: 230px;
     background-color: white;
+}
+
+.item1 {
+    height: 160;
+    border: 4px solid red;
+    flex: 1 1 auto;
+}
+
+.img {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
 }
 
 
