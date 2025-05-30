@@ -2,6 +2,17 @@
     font-family: "Roboto", sans-serif;
     margin: 0px;
 
+
+}
+
+header {
+    height: 30px;
+}
+
+footer {
+    height: 62px;
+    color: #e5e7eb;
+    font-size: 12px;
 }
 
 .hero, footer {
@@ -11,6 +22,7 @@
 .main {
     font-size: 48px;
     color: #f9faf8;
+    font-weight: 900;
 }
 
 .secondary {
@@ -25,17 +37,31 @@
 
 .container {
     display: flex;
-    height: 300px;
-
 }
 
-.s1 {
-    flex: 1;
-    height:100px;
+footer.container {
+    justify-content: center;
+    align-items: center;
 }
 
-.s1.pic {
-    background: grey;
+.c1 {
+    height: 320;
+    background-color:#1f2937;
+}
+
+.c2 {
+    height: 320px;
+    background-color:white;
+}
+
+.c3 {
+    height: 275px;
+    background-color: #e5e7eb;
+}
+
+.c4 {
+    height: 230px;
+    background-color: white;
 }
 
 
