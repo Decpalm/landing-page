@@ -59,6 +59,7 @@ footer.container {
 .c3 {
     height: 275px;
     background-color: #e5e7eb;
+    flex-direction: column;
 }
 
 .c4 {
@@ -121,6 +122,19 @@ footer.container {
     width: 100px;
     height: 100px;
     text-align: center;
+}
+
+.quote {
+    margin-top: 90px;
+    font-size: 21px;
+    font-weight: 100;
+    text-align: left;
+    width: 480px;
+}
+.thor {
+    width: 480px;
+    text-align: right;
+    font-weight: 900;
 }
 
 
